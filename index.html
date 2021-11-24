@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrando Pessoas</title>
+    <style>
+        body{
+            background-color: rgba(120, 120, 120, 0.2);
+        }
+        #form {
+            margin-left: 30vw;
+            margin-top: 50px;
+            height: 400px;
+            width: 300px;
+            border: 2px solid black;
+
+        }
+
+        #valoresUsuarios{
+            font-size: 20px;
+            list-style: disc;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h2>Cadastrando Pessoas</h2>
+        <input placeholder="Nome" id="nome" type="text">
+        <input placeholder="Idade" id="idade" type="number">  <button onclick="cadastrar()">Cadastrar</button>
+        <div id="valoresUsuarios">
+
+        </div>
+    </div>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
