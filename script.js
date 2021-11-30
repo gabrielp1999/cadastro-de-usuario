@@ -59,6 +59,9 @@ function cadastrar() {
     conteudo += "</ul>";
 
     valoresUsuarios.innerHTML = conteudo;
+
+    document.getElementById('nome').value='';
+    document.getElementById('idade').value='';
 }
 
 
